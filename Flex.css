@@ -1,0 +1,100 @@
+*{
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.list{
+    display: flex;
+    font-size: 20px;
+    background-color: goldenrod;
+    margin: 10px 10px;
+    
+    
+}
+
+.list1{
+    padding: 10px;
+    flex:50%;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+.list2{
+    padding: 10px;
+    flex:50%;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.heading{
+    text-align: center;
+}
+.flex-items {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .flex-items > div {
+    margin: 20px 4px;
+    padding: 5px 25px;
+    font-size: 15px;
+    border: 2px solid green;
+    
+  }
+
+
+
+
+.header{
+    background:goldenrod;
+    height: 50px;
+    margin:  0px 10px;
+    padding: 10px;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    margin: 0px 10px;
+    height: 400px;
+    
+}
+
+.content{
+    text-align: left;
+    background: white;
+    height: 250px;
+    font-size: 18px;
+    width: 50%;
+    padding: 10px;
+}
+.content h1{
+    padding: 12px 0px;
+}
+.aside1{
+background:grey;
+width: 25%;
+padding: 10px;
+    
+}
+    
+.aside2{
+    background: grey;
+    width: 25%;
+    padding: 10px;
+        
+}
+    
+.footer{
+    background: green;
+    height: 50px;
+    margin:0px 10px;
+    padding: 10px;
+  
+    text-align: center;
+}
